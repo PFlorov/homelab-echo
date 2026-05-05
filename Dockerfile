@@ -1,4 +1,4 @@
-FROM python:3.11.15-slim AS builder
+FROM python:3.11-slim
 
 ENV APP_NAME="homelab-echo"
 ENV APP_ENV="dev"
